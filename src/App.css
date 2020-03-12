@@ -1,38 +1,154 @@
 .App {
-  text-align: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ display: flex;
+ width: 100vw;
+ height:100vh;
+ justify-content: space-between; 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  height:13vh;
+  margin:auto;
+  width: 100%;
+}
+
+.App-img {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  height:13vh;
+  margin:auto;
+ }
+.App-bottom {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height:8vh; 
+  width:100vw;
+}
+.App-srow {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  align-content:center; 
+  height:77vh;
+  width: 100vw;
+   } 
+.App-srow1 {  
+  height:27vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-content:center; 
+  width:78vw;
+  
+}
+.App-srow2 {  
+  height:17vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-content:center; 
+  width:78vw;
+
+}
+.App-scol {
+  height:77vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-content:center; 
+  width: 20vw;
+  font-weight: bold;
+  font-size: x-large;
+  
 }
+.App-scol2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-content:center; 
+  height:77vh;
+  width: 79vw;
+  font-weight: bold;
+  font-size: x-large;
 
-.App-link {
-  color: #61dafb;
 }
+.App-yellow {
+  background: yellow;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height:27vh;
+  width: 38.5vw;
+  align-content:center;
+  justify-content:center;
+  
+ }
+.App-carr {
+  height:45vh;
+  width:20vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.App-blue {
+  background: blue;
+  width: 28vw;
+  height:17vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content:center;
+}
+.App-blue2 {
+  background: blue;
+  width: 20vw;
+  height:17vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content:center;
+}
+.App-blue3 {
+  background: blue;
+  width: 20vw;
+  height:13vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content:center;
+}
+.App-lblue {
+  background: lightskyblue;
+  width: 78vw;
+  height:29vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content:center;
+}
+.App-none {
+  border: none;
+  height: 18vh;
 }

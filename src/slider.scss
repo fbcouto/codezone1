@@ -1,0 +1,77 @@
+.carrossel {
+    border: 1px solid blue;
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+
+    }
+    .slider {
+       
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        flex-direction: row;
+    
+        }
+ .slide-row {
+        
+        position: relative;
+        width: 100%;
+        height: 5vh;
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        overflow: hidden;
+        align-items: center;
+        font-weight: bold;
+        font-size: x-large;
+    }
+ .slide {
+    top:0;
+    min-width: 99%;
+    height: 40vh;
+    transition: 0.5s;
+    overflow: hidden;
+    
+    }
+ #goLeft {
+        position:relative;
+        top: 45%;
+        transform: translateY(-50%);
+        width: 40%;
+        height:100%;   
+        display:flex;
+        background:grey;
+        text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+        align-content:center;
+
+     }
+ #goRight {
+        position:relative;
+        top: 45%;
+        transform: translateY(-50%);
+        width: 40%;
+        height: 100%;    
+        background:grey;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: right;
+     } 
